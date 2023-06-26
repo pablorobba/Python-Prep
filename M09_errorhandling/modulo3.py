@@ -2,7 +2,7 @@
 class Modulo3:
     def __init__(self,lista):
         self.lista= lista
-        assert type(self) == list, f'{self} no es list'
+
     def convierte_celsius_farenheit_kelvin(self,entrada, salida):
                 
         parametros_esperados = ['celsius','kelvin','farenheit']
@@ -11,7 +11,7 @@ class Modulo3:
             print('Los parametros esperados son:', parametros_esperados)
             return self
         if str(salida) not in parametros_esperados:
-            print('Los parametros esperados son:', parametros_esperados)
+            print('Los parametros esperados son zxfsafasfwqrqwrg4ht2q:', parametros_esperados)
             return self
                 
         for i in self.lista:
@@ -20,6 +20,12 @@ class Modulo3:
             print(i, entrada , "son en", salida, 
                   self.___convierte_celsius_farenheit_kelvin
                   (i,entrada,salida), salida)
+        
+    def factorial(self):
+        for i in self.lista:
+            print("el factorial de", i, "es", self.___factorial(i)) 
+            
+               
     def ___factorial(self,numero):
             
         '''''Devuelve el factorial de un numero'''
@@ -48,6 +54,12 @@ class Modulo3:
             
         if type(valor) != int:
                 print("tenes que dar un numero")
+        
+        if type(entrada) != str:
+                print("tenes que poner la escala de entrada y de salida como str")
+        
+        if type(salida) != str:
+                print("tenes que poner la escala de entrada y de salida como str")
                 
         else:
             
