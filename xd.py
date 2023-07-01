@@ -98,3 +98,16 @@ def numero_que_más_se_repite(lista):
     
 lista = [1,1,3,3,3,3]
 numero_que_más_se_repite(lista)
+
+
+
+from collections import Counter
+
+lista = [1,2,3,4,4,4,4,4,5,6,7]
+
+cuantas = Counter(lista)
+cantidad_de_repes = cuantas.most_common(1)[0][1]
+más_comun = cuantas.most_common(1)[0][0]
+
+print ("el numero que más se repite es " + str(más_comun)
+       + ", en un total de", cantidad_de_repes, "veces")
