@@ -111,3 +111,6 @@ más_comun = cuantas.most_common(1)[0][0]
 
 print ("el numero que más se repite es " + str(más_comun)
        + ", en un total de", cantidad_de_repes, "veces")
+
+
+print(min(lista))
