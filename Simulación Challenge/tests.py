@@ -25,7 +25,7 @@ class PruebaHenryChallenge(unittest.TestCase):
       self.assertEqual(valor_test, valor_esperado)
       
     def test_EsPrimo_02(self):
-      valor_test = ch.EsPrimo(27)
+      valor_test = ch.EsPrimo(28)
       valor_esperado = False
       self.assertEqual(valor_test, valor_esperado)
 
